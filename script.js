@@ -3,15 +3,15 @@ function viewMore() {
     let text = document.getElementById("moreInfo");
     let button = document.getElementById("btn");
 
-    if (text.style.display === "block") {
+    if (text.classList.contains("show")) {
 
-        text.style.display = "none";
+        text.classList.remove("show");
         button.innerHTML = "View More";
     }
 
     else {
 
-        text.style.display = "block";
+        text.classList.add("show");
         button.innerHTML = "View Less";
     }
 }
