@@ -3,16 +3,16 @@ function viewMore() {
     let text = document.getElementById("moreInfo");
     let button = document.getElementById("btn");
 
-    if (text.style.display === "none") {
+    if (text.style.display === "block") {
 
-        text.style.display = "block";
-        button.innerHTML = "View Less";
+        text.style.display = "none";
+        button.innerHTML = "View More";
     }
 
     else {
 
-        text.style.display = "none";
-        button.innerHTML = "View More";
+        text.style.display = "block";
+        button.innerHTML = "View Less";
     }
 }
 
