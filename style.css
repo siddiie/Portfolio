@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #111827;
+    color: white;
+}
+
+.navigationbar {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.navigationbar h2 {
+    color: #2563eb;
+}
+
+.navigationbar a {
+    color: white;
+    margin: 15px;
+    font-size: 18px;
+}
+
+.navigationbar a:hover {
+    color: #2563eb;
+}
+
+
+section {
+    background-color: #1f2937;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 5px solid #2563eb;
+}
+
+
+
+h1,
+h2 {
+    color: #2563eb;
+}
+
+
+
+ul li {
+    margin: 10px;
+}
+
+
+
+ul li {
+    margin: 10px;
+}
+
+
+
+input,
+textarea {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #2563eb;
+}
+
+
+
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
